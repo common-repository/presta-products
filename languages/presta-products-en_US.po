@@ -1,0 +1,973 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: presta-products 1.0.0\n"
+"POT-Creation-Date: 2023-07-31 11:08+0200\n"
+"PO-Revision-Date: 2023-07-31 11:09+0200\n"
+"Last-Translator: \n"
+"Language-Team: Guillaume BOUAUD - https://www.guillaume-bouaud.fr\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin-header.php:2 presta-products.php:694 presta-products.php:695
+msgid "Presta Products for WordPress"
+msgstr "Presta Products for WordPress"
+
+#: includes/admin-header.php:4
+msgid ""
+"Vous êtes sur la page de configuration du module. Ici vous pourrez récupérer "
+"vos produits de votre prestashop !"
+msgstr ""
+"This is the configuration page of the plugin. Here you can get data of your "
+"products in your Prestashop website !"
+
+#: includes/admin-header.php:9
+msgid ""
+"Les données prestashop (clé webservice et/ou url) ne sont pas renseignées ! "
+"Renseignez-les dans l'onglet \"Options générales\"."
+msgstr ""
+"Prestashop datas (webservice key and / or website) aren’t informed ! Get it "
+"in the \"General options\" tab."
+
+#: includes/admin-header.php:14 presta-products.php:705 presta-products.php:706
+msgid "Options générales"
+msgstr "Configuration"
+
+#: includes/admin-header.php:15 presta-products.php:713 presta-products.php:714
+msgid "Fonctionnalités"
+msgstr "Features"
+
+#: includes/admin-header.php:16 presta-products.php:721 presta-products.php:722
+msgid "Documentation"
+msgstr "Documentation"
+
+#: includes/admin-header.php:20 presta-products.php:731 presta-products.php:732
+msgid "Cache"
+msgstr "Cache"
+
+#: includes/admin-header.php:21 presta-products.php:739 presta-products.php:740
+msgid "Utilisé sur"
+msgstr "Used on"
+
+#: includes/admin-header.php:26 includes/admin-header.php:27
+msgid "Uniquement en version PREMIUM."
+msgstr "On PREMIUM Version only."
+
+#: includes/admin-header.php:26
+msgid "Cache (Option PREMIUM)"
+msgstr "Cache (PREMIUM option)"
+
+#: includes/admin-header.php:27
+msgid "Utilisé sur (Option PREMIUM)"
+msgstr "Used on (PREMIUM option)"
+
+#: includes/product/carrousel.php:12
+msgid "Précédent"
+msgstr "Previous"
+
+#: includes/product/carrousel.php:13
+msgid "Suivant"
+msgstr "Next"
+
+#: includes/product/carrousel.php:34 includes/product/product-1.php:19
+#: includes/product/product-2.php:19 includes/product/product-3.php:19
+msgid "Promotion !"
+msgstr "On sale !"
+
+#: includes/product/carrousel.php:76 includes/product/product-1.php:61
+#: includes/product/product-2.php:39 includes/product/product-3.php:61
+msgid "Voir le produit"
+msgstr "See product"
+
+#: includes/product/carrousel.php:92
+msgid "Point"
+msgstr "Dot"
+
+#: includes/tabs/404.php:4
+msgid "Page en erreur"
+msgstr "Error page"
+
+#: includes/tabs/404.php:7
+msgid "Il semblerait que la page demandée n'existe pas !"
+msgstr "It seems the page you wanted doesn’t exist !"
+
+#: includes/tabs/404.php:8
+msgid "Retour à la page de configuration"
+msgstr "Back to home page"
+
+#: includes/tabs/cache.php:4
+msgid "Gestion en cache"
+msgstr "Cache management"
+
+#: includes/tabs/cache.php:9
+msgid ""
+"Le système de cache va enregistrer les données de l'API PrestaShop en local "
+"dans le WordPress."
+msgstr ""
+"Cache system Will save data of PrestaShop API in local into this WordPress."
+
+#: includes/tabs/cache.php:10
+msgid ""
+"Vous acceptez donc que les données Produits de votre boutique PrestaShop "
+"soient stockées en local (base de données) dans le WordPress actuel."
+msgstr ""
+"You will accept that PrestaShop datas (products) will be stocked in this "
+"WordPress local (Database)."
+
+#: includes/tabs/cache.php:19 includes/tabs/form-features.php:8
+#: includes/tabs/form-options.php:8
+msgid "Enregistrement"
+msgstr "Save"
+
+#: includes/tabs/cache.php:20 includes/tabs/form-features.php:9
+#: includes/tabs/form-options.php:9
+msgid "Fermeture"
+msgstr "Close"
+
+#: includes/tabs/cache.php:28
+msgid "Utiliser le cache ?"
+msgstr "Use cache ?"
+
+#: includes/tabs/cache.php:29
+msgid "Par défaut: Non."
+msgstr "Default: No."
+
+#: includes/tabs/cache.php:34 includes/tabs/form-features.php:65
+#: includes/tabs/form-features.php:85 includes/tabs/form-features.php:104
+#: includes/tabs/form-features.php:117 includes/tabs/form-features.php:158
+#: includes/tabs/form-features.php:171 includes/tabs/form-features.php:189
+#: includes/tabs/form-features.php:203 includes/tabs/form-features.php:217
+#: includes/tabs/form-features.php:237 includes/tabs/form-features.php:246
+#: includes/tabs/form-features.php:255 includes/tabs/form-features.php:305
+#: includes/tabs/form-features.php:367 includes/tabs/form-features.php:393
+msgid "Option disponible avec la version payante."
+msgstr "Option available with PREMIUM version."
+
+#: includes/tabs/cache.php:40 includes/tabs/form-features.php:399
+#: includes/tabs/form-options.php:126
+msgid "Enregistrer"
+msgstr "Save"
+
+#: includes/tabs/cache.php:46
+msgid ""
+"Vous pouvez ajouter une ligne dans votre crontab si vous souhaitez que la "
+"tâche soit exécutée automatiquement. Voici un exemple :"
+msgstr ""
+"You can add a line in your crontab if you want your task automatic. Here is "
+"an example :"
+
+#: includes/tabs/cache.php:47
+#, php-format
+msgid "12 1 * * * /usr/local/bin/php %s > /dev/null 2>&1"
+msgstr "12 1 * * * /usr/local/bin/php %s > /dev/null 2>&1"
+
+#: includes/tabs/cache.php:49
+msgid ""
+"Vous pouvez trouver un tutoriel de la création d'une tâche cron sur votre "
+"serveur en suivant <a href=\"https://www.guillaume-bouaud.fr/blog/wordpress/"
+"ajouter-une-routine-dans-la-crontab\" target=\"_blank\">ce lien</a>."
+msgstr ""
+"You can find a tutorial to create a crontab in your server by clicking <a "
+"href=\"https://www.guillaume-bouaud.fr/blog/wordpress/ajouter-une-routine-"
+"dans-la-crontab\" target=\"_blank\">this link</a>."
+
+#: includes/tabs/cache.php:53
+msgid ""
+"Le rafraichissement du cache est obligatoire à chaque nouveau changement de "
+"shortcode dans les pages et articles (ajout, modification, suppression)."
+msgstr ""
+"Cache refresh is mandatory every time you add or modify or delete a "
+"shortcode in posts."
+
+#: includes/tabs/cache.php:61 includes/tabs/cache.php:122
+msgid "Actions"
+msgstr "Actions"
+
+#: includes/tabs/cache.php:66
+msgid "Mettre à jour le cache"
+msgstr "Update cache"
+
+#: includes/tabs/cache.php:69 includes/tabs/cache.php:127
+msgid "Supprimer le cache"
+msgstr "Delete cache"
+
+#: includes/tabs/cache.php:74
+msgid "Données mises en cache"
+msgstr "Cache datas"
+
+#: includes/tabs/cache.php:80
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/tabs/cache.php:81
+msgid "Produits affichés"
+msgstr "Displayed products"
+
+#: includes/tabs/cache.php:110
+msgid "Pas de données en cache !"
+msgstr "No data in cache !"
+
+#: includes/tabs/examples.php:4
+msgid "Options disponibles"
+msgstr "Available options"
+
+#: includes/tabs/examples.php:8
+msgid "Produit"
+msgstr "Product"
+
+#: includes/tabs/examples.php:10 includes/tabs/examples.php:16
+#: includes/tabs/examples.php:22 includes/tabs/examples.php:28
+#: includes/tabs/form-features.php:197 includes/tabs/form-features.php:211
+msgid "Uniquement des nombres."
+msgstr "Only numbers."
+
+#: includes/tabs/examples.php:14
+msgid "Liste des produits"
+msgstr "Products list"
+
+#: includes/tabs/examples.php:20
+msgid "Catégorie"
+msgstr "Category"
+
+#: includes/tabs/examples.php:26
+msgid "Liste des catégories"
+msgstr "Categories list"
+
+#: includes/tabs/examples.php:32
+msgid "Nombre de produits"
+msgstr "Total of products"
+
+#: includes/tabs/examples.php:34
+msgid ""
+"Par défaut, le nombre de produits récupérés sera de 5.<br>Pris en compte "
+"uniquement avec les paramètres category, categories ou bestsellers.<br>Champ "
+"facultatif."
+msgstr ""
+"Default : get’s a total of 5 products.<br>Available only with parameters : "
+"category, categories or bestsellers.<br>Optional field."
+
+#: includes/tabs/examples.php:38
+msgid "Obfuscation forcée"
+msgstr "Forced obfuscation"
+
+#: includes/tabs/examples.php:40
+msgid ""
+"0 (enlever l'obfuscation) ou 1 (forcer l'obfuscation).<br>Si la valeur est "
+"différente, alors l'obfuscation n'est pas forcée.<br>Champ facultatif."
+msgstr ""
+"0 to take off obfuscation or 1 to force it.<br>If any other value, it takes "
+"the default parameter of obfuscation.<br>Optional field."
+
+#: includes/tabs/examples.php:44
+msgid "Meilleures ventes"
+msgstr "Bestsellers"
+
+#: includes/tabs/examples.php:46
+msgid ""
+"Uniquement des nombres.<br>Par défaut, le nombre de jours à remonter est de "
+"10.<br>Champ facultatif."
+msgstr "Only numbers.<br>Default : 10 days ago.<br>Optional field."
+
+#: includes/tabs/examples.php:50
+msgid "Tri"
+msgstr "Order"
+
+#: includes/tabs/examples.php:52
+msgid ""
+"Choix disponibles : ID, PRICE, DATE, STOCK, RANDOM) + Ordre (ASC ou DESC, "
+"facultatif, par défaut ASC), séparés par une virgule.<br>Par défaut, ID."
+"<br>Champ facultatif."
+msgstr ""
+"Options : ID, PRICE, DATE, STOCK, RANDOM + Order (ASC or DESC, optional, by "
+"default ASC), separated by a comma (« , »).<br>By default, ID.<br>Optional "
+"field."
+
+#: includes/tabs/examples.php:56
+msgid "Carrousel de produits"
+msgstr "Products carousel"
+
+#: includes/tabs/examples.php:58
+msgid ""
+"Créé un carrousel avec les produits indiqués avec products, ou category, ou "
+"categories.<br>Champ facultatif."
+msgstr ""
+"Create a carousel with indicated products (parameters products, category or "
+"categories).<br>Optional field."
+
+#: includes/tabs/examples.php:62
+msgid "Option autoplay du carrousel"
+msgstr "Autoplay for carousel"
+
+#: includes/tabs/examples.php:64
+msgid ""
+"Uniquement des nombres.<br>Lance automatiquement le carrousel et tourne "
+"automatiquement toutes les X ms.<br>Par défaut, 5000ms pour 5 secondes de "
+"délai entre chaque mouvement.<br>Minimum 2000ms (2 secondes) pour un rendu "
+"correct.<br>Champ facultatif, utilisé uniquement avec le mode \"carrousel\"."
+msgstr ""
+"Only numbers.<br>Launch automatically the carousel every X ms.<br>Default, "
+"5000ms (5 seconds).<br>Min 2000ms (2 seconds).<br>Optional field, used only "
+"on carrousel mode."
+
+#: includes/tabs/examples.php:68
+msgid "Option nombre de produits affichés du carrousel"
+msgstr "Counter products for carousel mode"
+
+#: includes/tabs/examples.php:70
+msgid ""
+"Uniquement des nombres.<br>Par défaut, prend le paramètre counter ou à "
+"défaut la gestion se fait sur le nombre de produits récupérés.<br>Champ "
+"facultatif, utilisé uniquement avec le mode \"carrousel\"."
+msgstr ""
+"Only numbers.<br>Default, use counter parameter or automatically with number "
+"of products.<br>Optional field, used only with carousel mode."
+
+#: includes/tabs/examples.php:74
+msgid "Option taille du carrousel"
+msgstr "Width of carrousel"
+
+#: includes/tabs/examples.php:76
+msgid ""
+"Une taille en pixel ou en % (utiliser 600px ou 80%).<br>Par défaut, prend la "
+"taille complète de l'élément parent.<br>Champ facultatif, utilisé uniquement "
+"avec le mode \"carrousel\".<br>ATTENTION, bien gérer avec le nombre de "
+"produits par ligne !"
+msgstr ""
+"A width in pixel or percentage (use 600px or 80%).<br>Default, take full "
+"size of parent element.<br>Optional field, used only with carrousel mode."
+"<br>BE CAREFUL, if you use this, think to change number of product "
+"displayed !"
+
+#: includes/tabs/examples.php:80
+msgid "Langue du/des produit(s)"
+msgstr "Product(s)’language"
+
+#: includes/tabs/examples.php:82
+msgid ""
+"Code ISO de la langue souhaitée (doit être dans prestashop).<br>Par défaut, "
+"prend la langue courante.<br>Champ facultatif, exemples de code ISO : fr, "
+"en..."
+msgstr ""
+"ISO Code of language wanted (must be present in prestashop).<br>Default: "
+"current language.<br>Optional field, examples: fr, en…"
+
+#: includes/tabs/examples.php:86
+msgid "Exemples de shortcodes"
+msgstr "Examples of shortcodes"
+
+#: includes/tabs/examples.php:90
+msgid "Ajout d'un produit Prestashop"
+msgstr "Add a Prestashop product"
+
+#: includes/tabs/examples.php:92
+msgid ""
+"Dans l'exemple ci-dessous, on veut ajouter le produit dont l'ID est le #1 de "
+"Prestashop :"
+msgstr "In the example below, we add product id #1 from Prestashop :"
+
+#: includes/tabs/examples.php:98
+msgid "Ajout d'un produit Prestashop forcé en obfusqué"
+msgstr "Add a Prestashop product with forced obfuscation"
+
+#: includes/tabs/examples.php:100
+msgid ""
+"Dans l'exemple ci-dessous, on veut ajouter le produit dont l'ID est le #1 de "
+"Prestashop avec un lien forcé en obfusqué :"
+msgstr ""
+"In the example below, we add product id #1 from Prestashop with a forced "
+"obfuscation of the link :"
+
+#: includes/tabs/examples.php:106
+msgid "Ajout d'une liste de produits Prestashop"
+msgstr "Add a list of Prestashop products"
+
+#: includes/tabs/examples.php:108
+msgid ""
+"Dans l'exemple ci-dessous, on veut ajouter les produits dont les ID sont les "
+"#1, #14 et #23 de Prestashop :"
+msgstr ""
+"In the example below, we add products id #1, #14 and #23 from Prestashop :"
+
+#: includes/tabs/examples.php:114
+msgid "Ajout de tous les produits d'une catégorie Prestashop"
+msgstr "Add all products from a Prestashop category"
+
+#: includes/tabs/examples.php:116
+msgid ""
+"Dans l'exemple ci-dessous, on veut ajouter les produits de la catégorie dont "
+"l'ID est le #1 de Prestashop :"
+msgstr ""
+"In the example below, we add products from category #1 from Prestashop :"
+
+#: includes/tabs/examples.php:122
+msgid "Ajout du TOP 6 des produits d'une catégorie Prestashop"
+msgstr "Add TOP 6 products from a Prestashop category"
+
+#: includes/tabs/examples.php:124
+msgid ""
+"Dans l'exemple ci-dessous, on veut ajouter le TOP 6 des produits de la "
+"catégorie dont l'ID est le #1 de Prestashop :"
+msgstr ""
+"In the example below, we add 6 products from category #1 from Prestashop :"
+
+#: includes/tabs/examples.php:130
+msgid "Ajout des 4 produits les plus vendus depuis 15 jours"
+msgstr "Add the best 4 products sold from 15 days ago"
+
+#: includes/tabs/examples.php:132
+msgid ""
+"Dans l'exemple ci-dessous, on veut ajouter les 4 produits les plus vendus "
+"sur Prestashop durant les 15 derniers jours :"
+msgstr ""
+"In the example below, we add the best four products sold of your Prestashop "
+"website from 15 days ago :"
+
+#: includes/tabs/examples.php:138
+msgid ""
+"Affiche un carrousel de 5 produits (3 affichés), avec un autoplay de 4 "
+"secondes"
+msgstr ""
+"Displays a carousel of 5 products (3 displayed), with an autoplay of 4 "
+"seconds"
+
+#: includes/tabs/examples.php:140
+msgid ""
+"Dans l'exemple ci-dessous, on veut ajouter les 5 produits indiqués dans un "
+"carrousel qui affichera 3 produits, en tournant automatiquement :"
+msgstr ""
+"In the example below, we want to add the 5 products indicated in a carousel "
+"that will display 3 products, automatically rotating :"
+
+#: includes/tabs/form-features.php:15
+msgid "Options diverses"
+msgstr "Various options"
+
+#: includes/tabs/form-features.php:17
+msgid "Ici il faut enregistrer les options souhaitées ou non."
+msgstr "Here is used to save configuration options."
+
+#: includes/tabs/form-features.php:22
+msgid "Affichages"
+msgstr "Displays"
+
+#: includes/tabs/form-features.php:27
+msgid "Nom du produit :"
+msgstr "Product’s name :"
+
+#: includes/tabs/form-features.php:36
+msgid "Image du produit :"
+msgstr "Product’s image :"
+
+#: includes/tabs/form-features.php:45
+msgid "Taille de l'image :"
+msgstr "Image size :"
+
+#: includes/tabs/form-features.php:49
+msgid "Petite taille (small_default)"
+msgstr "Small (small_default)"
+
+#: includes/tabs/form-features.php:50
+msgid "Moyenne taille (medium_default)"
+msgstr "Medium (medium_default)"
+
+#: includes/tabs/form-features.php:51
+msgid "Grande taille (large_default)"
+msgstr "Large (large_default)"
+
+#: includes/tabs/form-features.php:52
+msgid "Accueil (home_default)"
+msgstr "Home (home_default)"
+
+#: includes/tabs/form-features.php:53
+msgid "Panier (cart_default)"
+msgstr "Cart (cart_default)"
+
+#: includes/tabs/form-features.php:60
+msgid "Hover de l'image du produit :"
+msgstr "Product’s image hover :"
+
+#: includes/tabs/form-features.php:61
+msgid "Nécessite au minimum une deuxième image sur le produit dans PrestaShop."
+msgstr "Needs at least a second image on product in your PrestaShop."
+
+#: includes/tabs/form-features.php:71
+msgid "Prix du produit :"
+msgstr "Product’s price :"
+
+#: includes/tabs/form-features.php:80
+msgid "Prix barré du produit :"
+msgstr "Product’s old price :"
+
+#: includes/tabs/form-features.php:81
+msgid "Utilise les prix spécifiques du produit dans PrestaShop."
+msgstr "Use specific prices of product in your PrestaShop."
+
+#: includes/tabs/form-features.php:91
+msgid "Récapitulatif du produit :"
+msgstr "Short description of product :"
+
+#: includes/tabs/form-features.php:100
+msgid "Description du produit :"
+msgstr "Product’s description :"
+
+#: includes/tabs/form-features.php:111
+msgid "En promotion :"
+msgstr "On sale :"
+
+#: includes/tabs/form-features.php:112
+msgid ""
+"Nécessite la coche \"Promotions\" dans l'onglet \"Prix\" de la fiche produit "
+"dans PrestaShop."
+msgstr ""
+"Needs \"On Sale\" information on \"Price\" tab of product in your PrestaShop."
+
+#: includes/tabs/form-features.php:124
+msgid "Affichage d'un bouton \"Voir le produit\" :"
+msgstr "Displaying button \"See product » :"
+
+#: includes/tabs/form-features.php:133
+msgid "SEO"
+msgstr "SEO"
+
+#: includes/tabs/form-features.php:139
+msgid "Obfuscation des liens :"
+msgstr "Link obfuscation :"
+
+#: includes/tabs/form-features.php:140
+msgid "Balise span avec encodage (base 64) du lien."
+msgstr "Span element with base64 encode of the link."
+
+#: includes/tabs/form-features.php:151
+msgid "Balisage du titre (nom du produit) :"
+msgstr "Title element (product’s name) :"
+
+#: includes/tabs/form-features.php:152
+msgid "Options disponibles : h1 à h6, span, div."
+msgstr "Accessible options : h1 to h6, span or div."
+
+#: includes/tabs/form-features.php:153
+msgid "Par défaut h4."
+msgstr "Default : h4."
+
+#: includes/tabs/form-features.php:165
+msgid "Ouvrir dans un nouvel onglet ?"
+msgstr "Open in new tab ?"
+
+#: includes/tabs/form-features.php:166
+msgid "Par défaut: Oui."
+msgstr "Default : Yes."
+
+#: includes/tabs/form-features.php:176
+msgid "Options"
+msgstr "Options"
+
+#: includes/tabs/form-features.php:182
+msgid "Nombre de produits max par ligne :"
+msgstr "Count of products per line (max) :"
+
+#: includes/tabs/form-features.php:183
+msgid "Options disponibles : 1, 2, 3, 4 ou 6 produits."
+msgstr "Accessible options : 1, 2, 3, 4 or 6 products."
+
+#: includes/tabs/form-features.php:184
+msgid "Par défaut 3."
+msgstr "Default : 3."
+
+#: includes/tabs/form-features.php:196
+msgid "Taille du récapitulatif :"
+msgstr "Short description size :"
+
+#: includes/tabs/form-features.php:198
+msgid "Par défaut : 90 caractères."
+msgstr "Default : 90 characters."
+
+#: includes/tabs/form-features.php:210
+msgid "Taille de la description :"
+msgstr "Description size :"
+
+#: includes/tabs/form-features.php:212
+msgid "Par défaut : 150 caractères."
+msgstr "Default : 150 characters."
+
+#: includes/tabs/form-features.php:224
+msgid "Cacher les produits hors ligne :"
+msgstr "Hide offline products :"
+
+#: includes/tabs/form-features.php:232
+msgid "Cacher les produits non disponible à la vente :"
+msgstr "Hide no available for order products :"
+
+#: includes/tabs/form-features.php:241
+msgid "Cacher les produits de visibilité \"Nulle Part\" :"
+msgstr "Hide \"no way\" visibility products :"
+
+#: includes/tabs/form-features.php:250
+msgid "Cacher les produits sans stock (champ quantité) :"
+msgstr "Hide products without stock (quantity field) :"
+
+#: includes/tabs/form-features.php:262
+msgid "CSS personnalisé :"
+msgstr "Custom CSS :"
+
+#: includes/tabs/form-features.php:263
+msgid "Attention, c'est un paramétrage uniquement pour les confirmés."
+msgstr "Warning, this parameter is for advanced users only."
+
+#: includes/tabs/form-features.php:264
+msgid ""
+"Si vous ne connaissez pas le langage CSS, faites appel à votre "
+"administrateur."
+msgstr "If you don’t know CSS language, call an administrator."
+
+#: includes/tabs/form-features.php:266
+msgid ""
+"Vous pouvez utiliser les classes suivantes pour changer le style des "
+"éléments :"
+msgstr "You can use classes below to change style of the elements :"
+
+#: includes/tabs/form-features.php:267
+msgid ""
+"<ul><li>&laquo; .row.ppgbo_row &raquo; pour la ligne des produits</"
+"li><li>&laquo; .row.ppgbo_row > .product &raquo; pour le bloc produit</"
+"li><li>Exemple: &laquo; .row.ppgbo_row { margin:25px 0 !important;} &raquo; "
+"pour ajouter un espace dessus et dessous la ligne des produits</li></ul>"
+msgstr ""
+"<ul><li>&laquo; .row.ppgbo_row &raquo; for product line</li><li>&laquo; .row."
+"ppgbo_row > .product &raquo; for product block</li><li>Example: &laquo; .row."
+"ppgbo_row { margin:25px 0 !important;} &raquo; to add spaces before and "
+"after product line</li></ul>"
+
+#: includes/tabs/form-features.php:273
+msgid ""
+"Un conseil : utiliser un éditeur de texte pour le formatage du code CSS puis "
+"copier/coller le contenu ici."
+msgstr ""
+"Notice : use a text editor to format CSS code, then copy and paste result "
+"here."
+
+#: includes/tabs/form-features.php:280
+msgid "Template produit :"
+msgstr "Product’s template :"
+
+#: includes/tabs/form-features.php:281
+msgid "Par défaut : Template numéro 1."
+msgstr "Default : template number 1."
+
+#: includes/tabs/form-features.php:310
+msgid "Mode Carrousel"
+msgstr "Carousel mode"
+
+#: includes/tabs/form-features.php:316
+msgid "Type de navigation :"
+msgstr "Type of navigation :"
+
+#: includes/tabs/form-features.php:317
+msgid "Par défaut : Flèches."
+msgstr "Default : arrows."
+
+#: includes/tabs/form-features.php:322
+msgid "Flèches"
+msgstr "Arrows"
+
+#: includes/tabs/form-features.php:323
+msgid "Points"
+msgstr "Dots"
+
+#: includes/tabs/form-features.php:324
+msgid "Flèches et points"
+msgstr "Arrows and dots"
+
+#: includes/tabs/form-features.php:332
+msgid "Type de flèches :"
+msgstr "Arrow’s type :"
+
+#: includes/tabs/form-features.php:333 includes/tabs/form-features.php:375
+msgid "Par défaut : Type numéro 1."
+msgstr "Default : type number 1."
+
+#: includes/tabs/form-features.php:340 includes/tabs/form-features.php:341
+#: includes/tabs/form-features.php:382
+msgid "Type numéro 1"
+msgstr "Type number 1"
+
+#: includes/tabs/form-features.php:347 includes/tabs/form-features.php:348
+#: includes/tabs/form-features.php:388
+msgid "Type numéro 2"
+msgstr "Type number 2"
+
+#: includes/tabs/form-features.php:354 includes/tabs/form-features.php:355
+msgid "Type numéro 3"
+msgstr "Type number 3"
+
+#: includes/tabs/form-features.php:361 includes/tabs/form-features.php:362
+msgid "Type numéro 4"
+msgstr "Type number 4"
+
+#: includes/tabs/form-features.php:374
+msgid "Type de points (inactif) :"
+msgstr "Dot’s type (inactive) :"
+
+#: includes/tabs/form-options.php:15
+msgid "Données Prestashop"
+msgstr "Prestashop datas"
+
+#: includes/tabs/form-options.php:17
+msgid "Ici il faut enregistrer les données de connexion au Prestashop."
+msgstr "Here is for configuration of connexion of Prestashop website via API."
+
+#: includes/tabs/form-options.php:21
+msgid ""
+"Il faut utiliser la clé WEBService, accessible dans le menu \"Configurer / "
+"Paramètres avancés / Webservice\" de Prestashop !"
+msgstr ""
+"It need’s to use Webservice key, in \"Configuration / Advanced parameters / "
+"Webservice\" from Prestashop !"
+
+#: includes/tabs/form-options.php:28
+msgid "Clé Webservice :"
+msgstr "Webservice key :"
+
+#: includes/tabs/form-options.php:33
+msgid ""
+"2 permissions sont nécessaires : les ressources \"products\" et \"orders\" "
+"en mode GET uniquement."
+msgstr ""
+"2 permissions needed : resources \"products\" and \"orders\" in GET mode "
+"only."
+
+#: includes/tabs/form-options.php:34
+msgid ""
+"Optionnel : La ressource \"languages\" en mode GET est nécessaire pour la "
+"gestion de la langue (utilisation du module Polylang)."
+msgstr ""
+"Optional : permission « languages » in GET mode is required if you want and "
+"use polylang plugin for language management."
+
+#: includes/tabs/form-options.php:35
+msgid ""
+"Vous pouvez trouver <a href=\"https://www.guillaume-bouaud.fr/blog/"
+"prestashop/creation-dune-cle-webservice\" target=\"_blank\">un tutoriel</a> "
+"pour vous aider à la création de cette fameuse clé WebService si nécessaire."
+msgstr ""
+"You can find <a href=\"https://www.guillaume-bouaud.fr/blog/prestashop/"
+"creation-dune-cle-webservice\" target=\"_blank\">how to</a> to help you with "
+"the creation of you web service key."
+
+#: includes/tabs/form-options.php:41
+msgid "URL du site internet ecommerce Prestashop :"
+msgstr "Prestashop ecommerce website :"
+
+#: includes/tabs/form-options.php:52
+msgid ""
+"Attention, si votre boutique PrestaShop est en mode maintenance, pensez à "
+"ajouter l'IP de votre serveur (où est stocké votre WordPress, même si les 2 "
+"CMS sont sur le même serveur) aux IP de maintenance autorisées pour la "
+"connexion."
+msgstr ""
+"Warning, if your PrestaShop is in maintenance mode, you should add your IP "
+"address of your server (where your WordPress is, even if it’s the same "
+"server as your PrestaShop) to maintenance IP allowed for connection."
+
+#: includes/tabs/form-options.php:58
+msgid "Version PREMIUM"
+msgstr "PREMIUM Version"
+
+#: includes/tabs/form-options.php:65
+msgid ""
+"Attention, les 2 champs sont nécessaires pour activer l'option PREMIUM :"
+msgstr "Warning, these 2 fields are mandatory to activate PREMIUM option :"
+
+#: includes/tabs/form-options.php:66
+msgid "- la clé est indiquée sur votre récapitulatif de commande."
+msgstr "- license key is on your order’s details in your account."
+
+#: includes/tabs/form-options.php:67
+msgid ""
+"- l'ID Utilisateur correspond à votre ID sur la page \"Mon Compte / Détails "
+"du compte\", dernier champ tout en bas."
+msgstr ""
+"- User ID is the ID of your account available on \"Account / Account "
+"details\", the last element of the form."
+
+#: includes/tabs/form-options.php:68
+msgid ""
+"Si ce message s'affiche toujours après avoir renseigné les 2 champs, c'est "
+"que votre clé n'est pas valide !"
+msgstr ""
+"If these message persists, even if you’re set up these 2 fields, it should "
+"be a wrong key !"
+
+#: includes/tabs/form-options.php:69
+msgid ""
+"Vous pouvez en prendre une sur <a href=\"https://www.guillaume-bouaud.fr/"
+"produit/licence-premium-presta-products-for-wordpress\" target=\"_blank\">le "
+"site du développeur</a> ou le contacter s'il y a un problème avec votre clé."
+msgstr ""
+"You can buy a license key on <a href=\"https://www.guillaume-bouaud.fr/"
+"produit/licence-premium-presta-products-for-wordpress\" "
+"target=\"_blank\">developer website</a> or contact him for any trouble."
+
+#: includes/tabs/form-options.php:77
+msgid "Clé de la version PREMIUM :"
+msgstr "PREMIUM version key :"
+
+#: includes/tabs/form-options.php:81
+msgid ""
+"Vous pouvez acheter une licence directement sur <a href=\"https://www."
+"guillaume-bouaud.fr/produit/licence-premium-presta-products-for-wordpress\" "
+"target=\"_blank\">le site du développeur</a>."
+msgstr ""
+"You can buy a license key on <a href=\"https://www.guillaume-bouaud.fr/"
+"produit/licence-premium-presta-products-for-wordpress\" "
+"target=\"_blank\">developer website</a>."
+
+#: includes/tabs/form-options.php:82
+msgid ""
+"Vous la retrouverez sur la page \"Mon Compte\" (Clés de licence) ou dans le "
+"mail de validation de commande."
+msgstr ""
+"You can found it on \"Account\" page (License keys) or in your validation "
+"order’s mail."
+
+#: includes/tabs/form-options.php:88
+msgid "ID de l'utilisateur sur le site du module :"
+msgstr "User ID on extension’s website :"
+
+#: includes/tabs/form-options.php:92
+msgid ""
+"Vous trouverez l'information sur <a href=\"https://www.guillaume-bouaud.fr/"
+"mon-compte/edit-account\" target=\"_blank\">la page \"Mon Compte / Détails "
+"du compte\"</a> sur le site du développeur."
+msgstr ""
+"You can get the information on <a href=\"https://www.guillaume-bouaud.fr/mon-"
+"compte/edit-account\" target=\"_blank\">\"Account / Account details\" page</"
+"a> on the developer’s website."
+
+#: includes/tabs/form-options.php:102
+msgid ""
+"Tentatives de connexion sécurisée au serveur (validation de la clé) "
+"restantes :"
+msgstr "Remaining secure server connection (key validation) attempts :"
+
+#: includes/tabs/form-options.php:112
+msgid ""
+"La demande d'accès au serveur (validation de la clé) n'a pas pu aboutir, "
+"merci de réitérer dans quelques instants."
+msgstr ""
+"The request for access to the server (validation of the key) could not "
+"succeed, please try again in a few moments."
+
+#: includes/tabs/form-options.php:113
+msgid ""
+"Attention, si ce message persiste et que le compteur tombe à 0, les champs "
+"de l'option PREMIUM seront réinitialisés."
+msgstr ""
+"Warning, if this message persists and the counter drops to 0, the fields of "
+"the PREMIUM option will be reinitialized."
+
+#: includes/tabs/used.php:6
+#, php-format
+msgid "Liste des éléments (%d)"
+msgstr "List of elements (%d)"
+
+#: includes/tabs/used.php:9
+msgid "Exporter en CSV"
+msgstr "CSV Export"
+
+#: includes/tabs/used.php:17
+msgid "ID"
+msgstr "ID"
+
+#: includes/tabs/used.php:18
+msgid "Nom"
+msgstr "Name"
+
+#: includes/tabs/used.php:19
+msgid "Type"
+msgstr "Type"
+
+#: includes/tabs/used.php:20
+msgid "Utilisation(s)"
+msgstr "Use(s)"
+
+#: presta-products.php:381
+msgid "Problème de réinitialisation du cache."
+msgstr "Cache reset problem."
+
+#: presta-products.php:383
+msgid "Données supprimées."
+msgstr "Datas deleted."
+
+#: presta-products.php:446 scripts/cron/crontab-presta-products.php:57
+msgid "Problème d'enregistrement de la donnée."
+msgstr "Cache save problem."
+
+#: presta-products.php:453
+msgid "Données enregistrées en cache."
+msgstr "Cached data."
+
+#: presta-products.php:816
+msgid "Configuration enregistrée."
+msgstr "Configuration saved."
+
+#: presta-products.php:874
+msgid "Options enregistrées."
+msgstr "Options saved."
+
+#: presta-products.php:884
+msgid "Gestion du cache enregistrée."
+msgstr "Cache management saved."
+
+#: presta-products.php:1082
+msgid "Aucun produit concerné."
+msgstr "No product."
+
+#: scripts/cron/crontab-presta-products.php:16
+msgid "Traitement de mise à jour du cache."
+msgstr "Cache update processing."
+
+#: scripts/cron/crontab-presta-products.php:17
+#, php-format
+msgid "[%s] Début du traitement."
+msgstr "[%s] Starting."
+
+#: scripts/cron/crontab-presta-products.php:62
+#, php-format
+msgid "[%s] Fin du traitement."
+msgstr "[%s] Ending."
+
+#~ msgid "Ajout des 5 premiers produits d'une catégorie Prestashop"
+#~ msgstr "Add the five first products from a Prestashop category"
+
+#~ msgid ""
+#~ "Dans l'exemple ci-dessous, on veut ajouter les 5 premiers produits de la "
+#~ "catégorie dont l'ID est le #1 de Prestashop :"
+#~ msgstr ""
+#~ "In the example below, we add the five first products of category #1 from "
+#~ "Prestashop :"
+
+#~ msgid " Uniquement des nombres."
+#~ msgstr " Only numbers."
+
+#~ msgid ""
+#~ "Si ce message s'affiche toujours après avoir renseigné les 2 champs, "
+#~ "c'est que votre clé n'est pas valide ! Vous pouvez en prendre une sur <a "
+#~ "href=\"https://www.guillaume-bouaud.fr/produit/licence-premium-presta-"
+#~ "products-for-wordpress\" target=\"_blank\">le site du développeur</a> ou "
+#~ "le contacter s'il y a un problème avec votre clé."
+#~ msgstr ""
+#~ "If you get this message again, it seems that your key is not valid ! You "
+#~ "can buy one on <a href=\"https://www.guillaume-bouaud.fr/produit/licence-"
+#~ "premium-presta-products-for-wordpress\" target=\"_blank\">developer "
+#~ "website</a> or contact him if you think it’s a problem."
+
+#~ msgid ""
+#~ "Vous la retrouverez sur la page récapitulative de votre commande ou le "
+#~ "mail reçu."
+#~ msgstr "You can get it on your order’s mail or in your account."
